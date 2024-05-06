@@ -1,0 +1,14 @@
+.create-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
+.create-form input {
+  padding: 1rem;
+  width: 50%;
+}
+.create-form input::placeholder {
+  font-size: 1rem;
+  color: black;
+}
